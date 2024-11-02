@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiRequest = axios.create({
-    baseURL: "http://localhost:8800/api",
+    baseURL: "https://estate-vtw4.onrender.com/api",
     withCredentials:true,
 })
 
