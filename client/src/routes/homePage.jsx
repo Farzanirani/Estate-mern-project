@@ -23,7 +23,7 @@ export default function HomePage() {
     useEffect(() => {
         const fetchProperties = async () => {
             try {
-                const res = await axios.get('http://localhost:8800/api/posts');
+                const res = await axios.get('https://estate-vtw4.onrender.com/api/posts');
                 setPropertyCount(res.data.length);
             } catch (err) {
                 console.error("Error fetching properties: ", err);
